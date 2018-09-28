@@ -20,12 +20,77 @@ body {
   display: flex;
 }
 
-#root {
-  /* position: relative;
-  justify-content: center; */
+#flex-container{
+  display:flex;
+  margin: 0 auto;
+  padding: 100px;
+  justify-content: center;
+}
+
+#timer{
+  position:relative;
+  margin: 0 auto;
+  display: block;
+}
+#tabs{
+  position:relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.clock-container{
+  display:block;
+}
+
+.clock-container > header{
+  display: block;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.time {
+  /* position: relative; */
+  /* justify-content: center; */
   font-family: 'Lobster', cursive;
   font-size: 36px;
   margin: 0 auto;
-  height: 300px;
-  padding-top: 150px;
+  height: 100px;
+  padding: 20px 50px;
+  width: 100px;
+  border: 1px solid grey;
+  background-color: lightblue;
+  border-radius: 5px;
 }
+
+
+
+.widget-break{
+  display:block;
+}
+
+.tab-container{
+  position: relative;
+  font-size: 36px;
+  margin: 0 auto;
+  height: 100px;
+  padding: 20px 50px;
+  width: 100px;
+  border: 1px solid grey;
+  background-color: pink;
+  border-radius: 5px;
+}
+
+/* #flex1 {
+  display: flex;
+  justify-content: center;
+}
+
+#flex2 {
+  position: relative;
+  height: 10px
+}
+
+#flex3 {
+  position: relative;
+  height: 20px
+} */

@@ -36,9 +36,13 @@ class Clock extends React.Component{
     seconds = (seconds < 10) ? `0${seconds}` : seconds;
 
     return(
-      <h1>
+      <section className="clock-container">
+      <header>
+      </header>
+      <h1 className="time">
       Time: {hours}:{minutes}:{seconds}
-    </h1>
+      </h1>
+      </section>
   );
   }
 
